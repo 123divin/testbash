@@ -1,0 +1,1 @@
+this is jusst for checking if the bash works
