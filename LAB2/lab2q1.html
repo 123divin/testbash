@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+     <link rel="stylesheet" href="E:\classes\Msc Cybersecurity\2_web_application\labs\lab1\LAB2\lab2q1.css">
+     <title>Lab2test</title>
+    </head>
+    
+    <body>
+        
+        <div class="tesla">
+            
+
+            <div class="d-none d-sm-block">
+
+                <nav class="navbar navbar">
+
+                    <div class="container-fluid">
+
+                        <div class="navbar-brand">
+
+                            <div class="d-flex-container-start">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+                                    <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7l-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                    <path d="M5.354 7.146l.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                </svg>ToDo manager      
+                            </div>
+                        </div>
+                       
+
+                        <div class="d-flex justify-content-center">
+
+                            <input type="text" placeholder="search..."> 
+
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>
+
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+
+
+
+            <div class="d-block d-sm-none">
+                
+                <nav class="navbar navbar-dark">
+                    <div class="container-fluid">
+
+                        <div class="d-flex justify-content-start">
+
+                           <!-- <button data-toggle="collapse" data-target="#demo"></button>-->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#demo" aria-controls="demo" aria-expanded="false" aria-labelledby="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                            
+                        </div>
+    
+                        <div class="d-flex justify-content-center">
+                            
+                            <div class="navbar-brand">
+
+                               
+    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+                                        <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7l-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                        <path d="M5.354 7.146l.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                    </svg>ToDo manager      
+                                
+                            </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-end">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>
+                        </div>
+                    </div>
+                </nav>
+                
+
+            </div>
+
+            
+         <!-- <div class="cx">
+                <div class='container-fluid'>
+                   
+
+                         <header>
+                   
+                    <ul class="nav">   
+                       
+                        <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+                    <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7l-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                    <path d="M5.354 7.146l.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                     </svg> 
+
+                  
+                    <h6>To Do manager</h6>
+                    
+                        </li>
+                   
+                        
+                    <div class='d-flex justify-content-center'>
+                    <input type="text" placeholder="search..."> </div>
+
+                       
+                      
+                    
+                   
+                        <div class="d-flex justify-content-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg></div>
+                        
+
+                        </ul> 
+
+           
+
+                         </header> 
+
+                  
+                </div>
+            </div>   --> 
+                
+                   <!-- <ul class="nav">
+
+                    <li class="nav-item">
+                        <div class = "test">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+                                <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7l-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                <path d="M5.354 7.146l.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                              </svg> <h6>To Do manager</h6></div>
+    
+    
+                    </li>
+    
+                    
+    
+                    <li class="nav-item">
+                           <div class='d-flex justify-content-center'>
+    
+                                <input type="text" placeholder="search...">  </div>                 
+                    </li>
+                     
+                    <div class="d-flex justify-content-end">
+                        <li class="nav-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>
+                        </li>
+                    </div>
+                    
+    
+                    
+                    </ul> 
+                
+              
+
+            
+                </div>
+            </div> -->
+      
+      
+          
+               <!-- <ul class="nav">
+                    <li class="nav-item">
+
+                        <div class="d-flex justify-content-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+                                <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7l-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                <path d="M5.354 7.146l.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                              </svg>
+                                <h6>To Do manager</h6>
+                        </div> 
+                    </li>
+
+                        <div class="d-flex justify-content-center">
+                            <li class="nav-item">
+
+                                
+                                <input type="text" placeholder="search...">
+
+                                    
+
+                             </li>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <li class="nav-item">
+                               
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>
+                               
+                            </li>
+                        </div>
+                </ul>-->
+
+           
+      
+          <!--  <nav class="navbar navbar-expand-sm bg-light">
+
+                 Links 
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                  </li>
+                </ul>
+              
+              </nav> -->
+              
+        </div>
+
+        <div class='container-fluid'>
+
+            <main class='row'>
+               
+                    <div class="d-none d-sm-block col-3" id="test4">
+                         <!--<div class="col-3" id="test3"> -->
+                        
+                        <div class='container-fluid'>
+
+                            <div class="test1">
+
+                                <div class="list-group list-group-flush">
+
+                                    <li class="list-group-item" id="test2">
+                                        All
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        important
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        today
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        Next 7 Days
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        Private
+                                    </li>
+                                    
+                                </div>
+
+                            </div>
+                            
+                           
+                            <!--<table class='table table-hover'>
+                            <thead>
+                                <tr>
+                                    <th scope="col">All</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                 <tr>
+                                     <td>important</td>
+                                 </tr>
+                                 <tr>
+                                     <td>today</td>
+                                 </tr>
+                                 <tr>
+                                     <td>Next 7 Days</td>
+                                 </tr>
+                                 <tr>
+                                     <td>Private</td>
+                                 </tr>
+                            </tbody>
+                             </table>-->
+                        </div>
+                         
+                    </div>
+
+                    <div class="d-block d-sm-none">
+                        <div class="collapse navbar-collapse" id="demo">
+
+                        <div class='container-fluid'>
+
+                            <div class="test1">
+
+                                <div class="list-group list-group-flush">
+
+                                    <li class="list-group-item" id="test2">
+                                        All
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        important
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        today
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        Next 7 Days
+                                    </li>
+
+                                    <li class="list-group-item" id="test2">
+                                        Private
+                                    </li>
+                                    
+                                </div>
+
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-9">
+                        <h1>All</h1>
+                         <table class="table table-hover">
+                    
+                        <thead>
+                           <tr>
+                               <th scope="col"></th>
+                               <th scope="col"></th>
+                               <th scope="col"></th>
+                           </tr> 
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2"> 
+                                    <div class='form-check'>
+                                        <label class='form-check-label'>
+                                            <input type="checkbox" class='form-check-input' value="">
+                                                     Buy some groceries                              
+                                        </label>
+                                    </div>
+                                </td>
+                                
+                                <td>
+                                    <div class="d-flex justify-content-end">
+                                    Monday 22 March 2025 at 14:30</div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class='form-check'>
+                                        <label class='form-check-label'>
+                                            <input type="checkbox" class='form-check-input' value="">
+                                                     Read a good book                              
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-center"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                                      </svg></div>
+
+                                   
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-end">Today at 16:00</div>
+
+                                   
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="3">
+                                    <div class='form-check'>
+                                        <label class='form-check-label'>
+                                            <input type="checkbox" class='form-check-input' value="">
+                                                     Complete Lab 2                              
+                                        </label>
+                                    </div>
+                                </td>
+                                
+                            </tr>
+                        </tbody>
+                        </table>
+                    
+                   
+                    </div>
+                
+            </main> 
+            
+            <footer>
+                
+                    <div class='tochangecolor'>
+                        <div class="fixed-bottom">
+                            <div class="d-flex justify-content-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="red" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+
+            </footer>
+        </div>
+        
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </body>
+</html>
