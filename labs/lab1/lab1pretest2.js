@@ -1,12 +1,14 @@
 "use strict"
 
+const dayjs=require("dayjs")
+
 function Task(id,descriprion,urgent,privating,deadline=undefined){
 
     this.id=id;
     this.descriprion=descriprion;
     this.urgent=urgent; 
     this.privating=privating;
-    this.deadline=new Date(deadline);
+    this.deadline=dayjs(deadline);
     
 
 }
